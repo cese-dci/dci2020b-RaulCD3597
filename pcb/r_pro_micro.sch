@@ -970,17 +970,6 @@ Wire Wire Line
 Connection ~ 1650 2800
 Wire Wire Line
 	1650 2800 1650 2850
-$Comp
-L Device:R_Small R7
-U 1 1 5F6CBCA3
-P 10300 4200
-F 0 "R7" V 10200 4150 50  0000 L CNN
-F 1 "0" V 10400 4150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 10300 4200 50  0001 C CNN
-F 3 "~" H 10300 4200 50  0001 C CNN
-	1    10300 4200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10200 4200 9600 4200
 Wire Wire Line
@@ -998,6 +987,17 @@ F 1 "PWR_FLAG" H 1950 2323 50  0000 C CNN
 F 2 "" H 1950 2150 50  0001 C CNN
 F 3 "~" H 1950 2150 50  0001 C CNN
 	1    1950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 5F7FD2D5
+P 10300 4200
+F 0 "NT1" H 10300 4381 50  0000 C CNN
+F 1 "Net-Tie_2" H 10300 4290 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 10300 4200 50  0001 C CNN
+F 3 "~" H 10300 4200 50  0001 C CNN
+	1    10300 4200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
