@@ -46,62 +46,10 @@ F 3 "~" H 10650 3200 50  0001 C CNN
 	1    10650 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 9400 2700 2    50   Input ~ 0
-TXO
-Text GLabel 9400 2800 2    50   Input ~ 0
-RXI
-Text GLabel 9400 3100 2    50   Input ~ 0
-D2
-Text GLabel 9400 3200 2    50   Input ~ 0
-D3
-Text GLabel 9400 3300 2    50   Input ~ 0
-D4
-Text GLabel 9400 3400 2    50   Input ~ 0
-D5
-Text GLabel 9400 3500 2    50   Input ~ 0
-D6
-Text GLabel 9400 3600 2    50   Input ~ 0
-D7
-Text GLabel 9400 3700 2    50   Input ~ 0
-D8
-Text GLabel 9400 3800 2    50   Input ~ 0
-D9
-Text GLabel 10200 2700 0    50   Input ~ 0
-RAW
-Text GLabel 10200 2800 0    50   Input ~ 0
-GND
-Text GLabel 10200 2900 0    50   Input ~ 0
-RESET
-Text GLabel 10200 3100 0    50   Input ~ 0
-A3
-Text GLabel 10200 3200 0    50   Input ~ 0
-A2
-Text GLabel 10200 3300 0    50   Input ~ 0
-A1
-Text GLabel 10200 3400 0    50   Input ~ 0
-A0
-Text GLabel 10200 3500 0    50   Input ~ 0
-SCK
-Text GLabel 10200 3600 0    50   Input ~ 0
-MISO
-Text GLabel 10200 3700 0    50   Input ~ 0
-MOSI
-Text GLabel 10200 3800 0    50   Input ~ 0
-D10
 Wire Wire Line
 	9150 2700 9400 2700
 Wire Wire Line
 	9150 2800 9400 2800
-Wire Wire Line
-	9150 3400 9400 3400
-Wire Wire Line
-	9400 3500 9150 3500
-Wire Wire Line
-	9150 3600 9400 3600
-Wire Wire Line
-	9400 3700 9150 3700
-Wire Wire Line
-	9400 3800 9150 3800
 Wire Wire Line
 	10200 2700 10450 2700
 Wire Wire Line
@@ -109,7 +57,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 2900 10450 2900
 Wire Wire Line
-	10450 3000 10200 3000
+	10450 3000 10300 3000
 Wire Wire Line
 	10200 3100 10450 3100
 Wire Wire Line
@@ -171,8 +119,6 @@ Wire Wire Line
 Text Notes 3150 3800 0    100  ~ 20
 USB
 Wire Wire Line
-	9400 3300 9150 3300
-Wire Wire Line
 	9400 3200 9150 3200
 Wire Wire Line
 	9150 3100 9400 3100
@@ -191,10 +137,6 @@ Wire Wire Line
 	9150 3000 9400 3000
 Wire Wire Line
 	9400 2900 9150 2900
-Text GLabel 9400 2900 2    50   Input ~ 0
-GND
-Text GLabel 9400 3000 2    50   Input ~ 0
-GND
 $Comp
 L Device:C_Small C9
 U 1 1 5F6AF6CB
@@ -290,12 +232,12 @@ $EndComp
 $Comp
 L power:+3.3V #PWR0124
 U 1 1 5F67ECDF
-P 10200 3000
-F 0 "#PWR0124" H 10200 2850 50  0001 C CNN
-F 1 "+3.3V" V 10215 3128 50  0000 L CNN
-F 2 "" H 10200 3000 50  0001 C CNN
-F 3 "" H 10200 3000 50  0001 C CNN
-	1    10200 3000
+P 10300 3000
+F 0 "#PWR0124" H 10300 2850 50  0001 C CNN
+F 1 "+3.3V" V 10315 3128 50  0000 L CNN
+F 2 "" H 10300 3000 50  0001 C CNN
+F 3 "" H 10300 3000 50  0001 C CNN
+	1    10300 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -475,22 +417,16 @@ $EndComp
 Connection ~ 5650 2250
 Wire Wire Line
 	5100 2250 5650 2250
-Text GLabel 5100 2250 0    50   Input ~ 0
-RESET
 Wire Wire Line
 	5800 2250 5650 2250
 Wire Wire Line
 	5650 2250 5650 2150
 Wire Wire Line
 	7250 4850 7000 4850
-Text GLabel 7250 4850 2    50   Input ~ 0
-A3
 NoConn ~ 7000 4750
 NoConn ~ 7000 4650
 NoConn ~ 7000 2950
 NoConn ~ 7000 4050
-Text GLabel 7250 3850 2    50   Input ~ 0
-D4
 NoConn ~ 7000 3250
 Wire Wire Line
 	7250 2850 7000 2850
@@ -518,24 +454,12 @@ Wire Wire Line
 	6400 5700 6350 5700
 Wire Wire Line
 	6400 5550 6400 5700
-Text GLabel 7250 2650 2    50   Input ~ 0
-D8
-Text GLabel 7250 2750 2    50   Input ~ 0
-D9
-Text GLabel 7250 2850 2    50   Input ~ 0
-D10
 Wire Wire Line
 	7000 2550 7250 2550
 Wire Wire Line
 	7000 2450 7250 2450
 Wire Wire Line
 	7000 2350 7250 2350
-Text GLabel 7250 2550 2    50   Input ~ 0
-MISO
-Text GLabel 7250 2450 2    50   Input ~ 0
-MOSI
-Text GLabel 7250 2350 2    50   Input ~ 0
-SCK
 $Comp
 L Device:LED_Small D3
 U 1 1 5F5AC293
@@ -547,20 +471,12 @@ F 3 "~" V 8100 1450 50  0001 C CNN
 	1    8100 1450
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7250 5150 2    50   Input ~ 0
-A0
-Text GLabel 7250 5050 2    50   Input ~ 0
-A1
-Text GLabel 7250 4950 2    50   Input ~ 0
-A2
 Wire Wire Line
 	7000 4950 7250 4950
 Wire Wire Line
 	7000 5050 7250 5050
 Wire Wire Line
 	7000 5150 7250 5150
-Text GLabel 7250 4150 2    50   Input ~ 0
-D6
 Wire Wire Line
 	7000 4150 7250 4150
 $Comp
@@ -576,28 +492,16 @@ F 3 "~" V 8100 3200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7000 3850 7250 3850
-Text GLabel 7250 3750 2    50   Input ~ 0
-TXO
 Wire Wire Line
 	7000 3750 7250 3750
-Text GLabel 7250 3650 2    50   Input ~ 0
-RXI
 Wire Wire Line
 	7000 3650 7250 3650
-Text GLabel 7250 3550 2    50   Input ~ 0
-D2
 Wire Wire Line
 	7000 3550 7250 3550
-Text GLabel 7250 3450 2    50   Input ~ 0
-D3
 Wire Wire Line
 	7000 3450 7250 3450
-Text GLabel 7250 4450 2    50   Input ~ 0
-D7
 Wire Wire Line
 	7250 4450 7000 4450
-Text GLabel 7250 3150 2    50   Input ~ 0
-D5
 Wire Wire Line
 	7000 3150 7250 3150
 $Comp
@@ -1000,8 +904,6 @@ Wire Wire Line
 	1500 2100 1650 2100
 Wire Wire Line
 	1950 2200 1950 2100
-Text GLabel 1500 2100 0    50   Input ~ 0
-RAW
 Wire Wire Line
 	1950 2100 2050 2100
 Wire Wire Line
@@ -1032,4 +934,102 @@ Wire Notes Line
 	2300 5400 2900 5400
 Text Notes 2300 5750 0    50   ~ 0
 Digikey N producto: WM17143TR-ND\nNumero pieza fabricante: 0475890001\nDescripcion: CONN RCPT MICRO USB AB 5P SMD RA\nProovedor: Molex
+Text Label 9400 2800 0    50   ~ 0
+RXI
+Text Label 9400 2900 0    50   ~ 0
+GND
+Text Label 9400 3000 0    50   ~ 0
+GND
+Text Label 9400 3100 0    50   ~ 0
+D2
+Text Label 9400 3200 0    50   ~ 0
+D3
+Wire Wire Line
+	9400 3300 9150 3300
+Wire Wire Line
+	9400 3800 9150 3800
+Wire Wire Line
+	9400 3700 9150 3700
+Wire Wire Line
+	9150 3600 9400 3600
+Wire Wire Line
+	9400 3500 9150 3500
+Wire Wire Line
+	9150 3400 9400 3400
+Text Label 9400 3300 0    50   ~ 0
+D4
+Text Label 9400 3400 0    50   ~ 0
+D5
+Text Label 9400 3500 0    50   ~ 0
+D6
+Text Label 9400 3600 0    50   ~ 0
+D7
+Text Label 9400 3700 0    50   ~ 0
+D8
+Text Label 9400 3800 0    50   ~ 0
+D9
+Text Label 9400 2700 0    50   ~ 0
+TXO
+Text Label 10200 2700 2    50   ~ 0
+RAW
+Text Label 10200 2800 2    50   ~ 0
+GND
+Text Label 10200 2900 2    50   ~ 0
+RESET
+Text Label 10200 3100 2    50   ~ 0
+A3
+Text Label 10200 3200 2    50   ~ 0
+A2
+Text Label 10200 3300 2    50   ~ 0
+A1
+Text Label 10200 3400 2    50   ~ 0
+A0
+Text Label 10200 3500 2    50   ~ 0
+SCK
+Text Label 10200 3600 2    50   ~ 0
+MISO
+Text Label 10200 3700 2    50   ~ 0
+MOSI
+Text Label 10200 3800 2    50   ~ 0
+D10
+Text Label 7250 5150 0    50   ~ 0
+A0
+Text Label 7250 5050 0    50   ~ 0
+A1
+Text Label 7250 4950 0    50   ~ 0
+A2
+Text Label 7250 4850 0    50   ~ 0
+A3
+Text Label 7250 4450 0    50   ~ 0
+D7
+Text Label 7250 4150 0    50   ~ 0
+D6
+Text Label 7250 3850 0    50   ~ 0
+D4
+Text Label 7250 3750 0    50   ~ 0
+TXO
+Text Label 7250 3650 0    50   ~ 0
+RXI
+Text Label 7250 3550 0    50   ~ 0
+D2
+Text Label 7250 3450 0    50   ~ 0
+D3
+Text Label 7250 3150 0    50   ~ 0
+D5
+Text Label 7250 2850 0    50   ~ 0
+D10
+Text Label 7250 2750 0    50   ~ 0
+D9
+Text Label 7250 2650 0    50   ~ 0
+D8
+Text Label 7250 2550 0    50   ~ 0
+MISO
+Text Label 7250 2450 0    50   ~ 0
+MOSI
+Text Label 7250 2350 0    50   ~ 0
+SCK
+Text Label 5100 2250 2    50   ~ 0
+RESET
+Text Label 1500 2100 2    50   ~ 0
+RAW
 $EndSCHEMATC
