@@ -7,7 +7,7 @@ Sheet 1 1
 Title "Replica Pro Micro"
 Date "2020-10-09"
 Rev ""
-Comp "Autor: Raul Alejandro Camacho Dorado"
+Comp "Autor: Raul Alejandro Camacho Dorado Revisor: Jose Mauricio Lara Tapia"
 Comment1 "https://creativecommons.org/licenses/by-sa/4.0/"
 Comment2 "Modificacion sin el respaldo del autor original"
 Comment3 "Bajo licencia Creative Commons Attribution Share - Alike 4.0"
