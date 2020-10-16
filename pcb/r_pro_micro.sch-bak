@@ -43,6 +43,9 @@ F 0 "J3" H 10600 3950 50  0000 L CNN
 F 1 "Conn_01x12" H 10450 3850 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 10650 3200 50  0001 C CNN
 F 3 "~" H 10650 3200 50  0001 C CNN
+F 4 "PEC12SACN" H 10650 3200 50  0001 C CNN "MFG#"
+F 5 "S1032E-12-ND" H 10650 3200 50  0001 C CNN "DK#"
+F 6 "Sullins Connector Solutions" H 10650 3200 50  0001 C CNN "Manufacturer"
 	1    10650 3200
 	1    0    0    -1  
 $EndComp
@@ -84,6 +87,9 @@ F 0 "J2" H 3107 4867 50  0000 C CNN
 F 1 "USB_A" H 3107 4776 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-AB_Molex_47590-0001" H 3200 4350 50  0001 C CNN
 F 3 " ~" H 3200 4350 50  0001 C CNN
+F 4 "0475890001" H 3050 4400 50  0001 C CNN "MFG#"
+F 5 "WM17143TR-ND" H 3050 4400 50  0001 C CNN "DK#"
+F 6 "Molex" H 3050 4400 50  0001 C CNN "Manufacturer"
 	1    3050 4400
 	1    0    0    -1  
 $EndComp
@@ -130,6 +136,9 @@ F 0 "J1" H 8868 2475 50  0000 C CNN
 F 1 "Conn_01x12" H 8868 2566 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 8950 3300 50  0001 C CNN
 F 3 "~" H 8950 3300 50  0001 C CNN
+F 4 "PEC12SACN" H 8950 3300 50  0001 C CNN "MFG#"
+F 5 "S1032E-12-ND" H 8950 3300 50  0001 C CNN "DK#"
+F 6 "Sullins Connector Solutions" H 8950 3300 50  0001 C CNN "Manufacturer"
 	1    8950 3300
 	-1   0    0    1   
 $EndComp
@@ -542,6 +551,9 @@ F 0 "U2" H 5700 2400 50  0000 C CNN
 F 1 "ATmega32U4-MU" H 5550 2250 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 6400 3750 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 6400 3750 50  0001 C CNN
+F 4 "ATMEGA32U4-MU" H 6400 3750 50  0001 C CNN "MFG#"
+F 5 "ATMEGA32U4-MU-ND" H 6400 3750 50  0001 C CNN "DK#"
+F 6 "Microchip Technology" H 6400 3750 50  0001 C CNN "Manufacturer"
 	1    6400 3750
 	1    0    0    -1  
 $EndComp
@@ -608,30 +620,6 @@ Wire Wire Line
 	3750 4500 4400 4500
 Wire Wire Line
 	5150 3350 5800 3350
-Wire Notes Line
-	6800 5450 7050 5700
-Wire Notes Line
-	7050 5700 7600 5700
-Text Notes 7050 5700 0    50   ~ 0
-Digikey N producto: ATMEGA32U4-MU-ND\nDescripcion: IC MCU 8BIT 32KB FLASH 44VQFN\nProovedor: Microchip Technology
-Text Notes 9300 4350 0    50   ~ 0
-Digikey N producto: S1032E-12-ND\nDescripcion: CONN HEADER VERT 12POS 2.54MM\nProovedor: Sullins Connector Solutions
-Wire Notes Line
-	9000 3850 9300 4100
-Wire Notes Line
-	9300 4100 9850 4100
-Wire Notes Line
-	700  1350 1350 1350
-Text Notes 2750 1650 0    50   ~ 0
-Digikey N producto: MIC5219-2.85BMM-ND\nDescripcion: IC REG LINEAR 2.85V 500MA 8MSOP\nProovedor: Microchip Technology
-Wire Notes Line
-	700  2900 1200 2900
-Wire Notes Line
-	950  1800 700  2900
-Wire Notes Line
-	2750 1650 3100 1650
-Wire Notes Line
-	2500 1900 2750 1650
 $Comp
 L Device:C_Small C6
 U 1 1 5F56EA07
@@ -784,6 +772,9 @@ F 0 "D1" H 1500 1550 50  0000 C CNN
 F 1 "B0520WS-7-F" H 1300 1650 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323" V 1450 1750 50  0001 C CNN
 F 3 "~" V 1450 1750 50  0001 C CNN
+F 4 "B0520WS-7-F" H 1450 1750 50  0001 C CNN "MFG#"
+F 5 "B0520WS-FDITR-ND" H 1450 1750 50  0001 C CNN "DK#"
+F 6 "Diodes Incorporated" H 1450 1750 50  0001 C CNN "Manufacturer"
 	1    1450 1750
 	-1   0    0    1   
 $EndComp
@@ -795,6 +786,9 @@ F 0 "F1" V 800 1650 50  0000 C CNN
 F 1 "500mA" V 886 1750 50  0000 C CNN
 F 2 "Fuse:Fuse_1206_3216Metric" H 1050 1550 50  0001 L CNN
 F 3 "~" H 1000 1750 50  0001 C CNN
+F 4 "0ZCG0050AF2C" V 1000 1750 50  0001 C CNN "MFG#"
+F 5 "507-1762-2-ND" V 1000 1750 50  0001 C CNN "DK#"
+F 6 "Bel Fuse Inc." V 1000 1750 50  0001 C CNN "Manufacturer"
 	1    1000 1750
 	0    1    1    0   
 $EndComp
@@ -919,21 +913,12 @@ F 0 "U1" H 2350 2542 50  0000 C CNN
 F 1 "MIC5219-2.5YM5" H 2350 2451 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2350 2525 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf" H 2350 2200 50  0001 C CNN
+F 4 "MIC5219-2.85BMM-TR" H 2350 2200 50  0001 C CNN "MFG#"
+F 5 "MIC5219-2.85BMM-TR-ND" H 2350 2200 50  0001 C CNN "DK#"
+F 6 "Microchip Technology" H 2350 2200 50  0001 C CNN "Manufacturer"
 	1    2350 2200
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	1400 1700 700  1350
-Text Notes 700  3250 0    50   ~ 0
-Digikey N producto: 507-1762-2-ND\nNumero pieza fabricante: 0ZCG0050AF2C\nDescripcion: PTC RESET FUSE 30V 500MA 1812\nProovedor: Bel Fuse Inc.
-Text Notes 700  1350 0    50   ~ 0
-Digikey N producto: B0520WS-FDITR-ND\nDescripcion: DIODE SCHOTTKY 20V 500MA SOD323\nProovedor: Diodes Incorporated
-Wire Notes Line
-	2850 4700 2300 5400
-Wire Notes Line
-	2300 5400 2900 5400
-Text Notes 2300 5750 0    50   ~ 0
-Digikey N producto: WM17143TR-ND\nNumero pieza fabricante: 0475890001\nDescripcion: CONN RCPT MICRO USB AB 5P SMD RA\nProovedor: Molex
 Text Label 9400 2800 0    50   ~ 0
 RXI
 Text Label 9400 2900 0    50   ~ 0
