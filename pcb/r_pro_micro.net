@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/raul/Documents/CESE/12. DCI/pcb/r_pro_micro.sch")
-    (date "jue 22 oct 2020 18:00:09 -03")
+    (date "jue 22 oct 2020 21:47:09 -03")
     (tool "Eeschema 5.1.7-a382d34a8~87~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -42,7 +42,7 @@
       (tstamp 5F5DDF99))
     (comp (ref J2)
       (value USB_A)
-      (footprint Connector_USB:USB_Micro-AB_Molex_47590-0001)
+      (footprint Connector_USB:USB_Micro-B_Molex_47346-0001)
       (datasheet " ~")
       (fields
         (field (name DK#) WM17143TR-ND)
@@ -138,7 +138,7 @@
       (tstamp 5F58A482))
     (comp (ref Y1)
       (value 16MHz)
-      (footprint Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm)
+      (footprint Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm)
       (datasheet ~)
       (libsource (lib Device) (part Crystal_Small) (description "Two pin crystal, small symbol"))
       (sheetpath (names /) (tstamps /))
