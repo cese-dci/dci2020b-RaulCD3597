@@ -38,16 +38,16 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x12 J3
 U 1 1 5F5DDF99
-P 10650 3300
-F 0 "J3" H 10650 2450 50  0000 L CNN
-F 1 "Conn_01x12" H 10450 2550 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 10650 3300 50  0001 C CNN
-F 3 "~" H 10650 3300 50  0001 C CNN
-F 4 "PEC12SACN" H 10650 3300 50  0001 C CNN "MFG#"
-F 5 "S1032E-12-ND" H 10650 3300 50  0001 C CNN "DK#"
-F 6 "Sullins Connector Solutions" H 10650 3300 50  0001 C CNN "Manufacturer"
-	1    10650 3300
-	1    0    0    1   
+P 10650 3200
+F 0 "J3" H 10650 2350 50  0000 L CNN
+F 1 "Conn_01x12" H 10450 2450 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 10650 3200 50  0001 C CNN
+F 3 "~" H 10650 3200 50  0001 C CNN
+F 4 "PEC12SACN" H 10650 3200 50  0001 C CNN "MFG#"
+F 5 "S1032E-12-ND" H 10650 3200 50  0001 C CNN "DK#"
+F 6 "Sullins Connector Solutions" H 10650 3200 50  0001 C CNN "Manufacturer"
+	1    10650 3200
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9150 2700 9400 2700
@@ -131,16 +131,16 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x12 J1
 U 1 1 5F5DF74D
-P 8950 3300
-F 0 "J1" H 8868 2475 50  0000 C CNN
-F 1 "Conn_01x12" H 8868 2566 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 8950 3300 50  0001 C CNN
-F 3 "~" H 8950 3300 50  0001 C CNN
-F 4 "PEC12SACN" H 8950 3300 50  0001 C CNN "MFG#"
-F 5 "S1032E-12-ND" H 8950 3300 50  0001 C CNN "DK#"
-F 6 "Sullins Connector Solutions" H 8950 3300 50  0001 C CNN "Manufacturer"
-	1    8950 3300
-	-1   0    0    1   
+P 8950 3200
+F 0 "J1" H 8868 2375 50  0000 C CNN
+F 1 "Conn_01x12" H 8868 2466 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 8950 3200 50  0001 C CNN
+F 3 "~" H 8950 3200 50  0001 C CNN
+F 4 "PEC12SACN" H 8950 3200 50  0001 C CNN "MFG#"
+F 5 "S1032E-12-ND" H 8950 3200 50  0001 C CNN "DK#"
+F 6 "Sullins Connector Solutions" H 8950 3200 50  0001 C CNN "Manufacturer"
+	1    8950 3200
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	9150 3000 9400 3000
@@ -281,23 +281,8 @@ Wire Wire Line
 	8100 3100 8100 2800
 Wire Wire Line
 	1400 4550 1400 4750
-$Comp
-L Device:Net-Tie_2 NT1
-U 1 1 5F7FD2D5
-P 7700 4350
-F 0 "NT1" H 7700 4531 50  0000 C CNN
-F 1 "Net-Tie_2" H 7700 4440 50  0000 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 7700 4350 50  0001 C CNN
-F 3 "~" H 7700 4350 50  0001 C CNN
-	1    7700 4350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7900 4350 7900 4700
-Wire Wire Line
-	7800 4350 7900 4350
-Wire Wire Line
-	7600 4350 7000 4350
 Wire Wire Line
 	4550 2450 5800 2450
 Wire Wire Line
@@ -1017,4 +1002,50 @@ Text Label 5100 2250 2    50   ~ 0
 RESET
 Text Label 1500 2100 2    50   ~ 0
 RAW
+Wire Wire Line
+	7000 4350 7900 4350
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F9C0CA1
+P 2400 6300
+F 0 "H1" H 2500 6346 50  0000 L CNN
+F 1 "MountingHole" H 2500 6255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 2400 6300 50  0001 C CNN
+F 3 "~" H 2400 6300 50  0001 C CNN
+	1    2400 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F9C10CF
+P 2400 6700
+F 0 "H2" H 2500 6746 50  0000 L CNN
+F 1 "MountingHole" H 2500 6655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 2400 6700 50  0001 C CNN
+F 3 "~" H 2400 6700 50  0001 C CNN
+	1    2400 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5F9C5B25
+P 1000 6300
+F 0 "FID1" H 1085 6346 50  0000 L CNN
+F 1 "Fiducial" H 1085 6255 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 1000 6300 50  0001 C CNN
+F 3 "~" H 1000 6300 50  0001 C CNN
+	1    1000 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5F9C5D07
+P 1000 6700
+F 0 "FID2" H 1085 6746 50  0000 L CNN
+F 1 "Fiducial" H 1085 6655 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 1000 6700 50  0001 C CNN
+F 3 "~" H 1000 6700 50  0001 C CNN
+	1    1000 6700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
